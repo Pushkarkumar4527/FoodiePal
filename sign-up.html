@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodiePal - Join Us</title>
+    <link rel="stylesheet" href="assets/css/sign-up.css">
+</head>
+<body>
+    <!-- navigation bar -->
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-text"><a href="index.html">FoodiePal</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="health-tips.html">Health Tips</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="sign-up.html">Join us</a></li>
+            </ul>
+        </nav>
+     </header>
+
+    
+    <!-- main section of sign up page -->
+
+    <!-- <div class="signup-container">
+        <h2>Join FoodiePal</h2>
+        <p> Sign up to explore a world of culinary delights, exclusive recipes, and restaurant reviews.</p>
+
+        <form action="/submit-signup" method="post" class="signup-form">
+            <div class="input-field">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" required>
+            </div>
+            <div class="input-field">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" required>
+            </div>
+            <div class="input-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-field">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="input-field">
+                <label for="role">Sign Up As</label>
+                <select id="role" name="role" required>
+                    <option value="foodie">Foodie</option>
+                    <option value="chef">Chef</option>
+                    <option value="restaurant">Restaurant Owner</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-btn">Join Now</button>
+
+            <div class="terms">
+                By signing up, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy policy</a>
+            </div>
+        </form>
+    </div> -->
+
+    <div class="container">
+        <h2>Join FoodiePal</h2>
+        <form action="/submit-signup" method="POST">
+            <div class="input-field">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" required>
+            </div>
+
+            <div class="input-field">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" required>
+            </div>
+
+            <div class="input-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="input-field">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="input-field">
+                <label for="role">Sign Up As</label>
+                <select id="role" name="role" required>
+                    <option value="foodie">Foodie</option>
+                    <option value="chef">Chef</option>
+                    <option value="restaurant">Restaurant Owner</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-btn">Join Now</button>
+
+            <div class="terms">
+                By signing up, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+            </div>
+        </form>
+    </div>
+
+    <script src="assets/js/joinus.js"></script>
+
+
+</body>
+</html>
