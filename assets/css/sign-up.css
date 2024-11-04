@@ -7,7 +7,7 @@ body{
 
 
 
-/* navigatio bar */
+/* navigation bar */
 
 
 .navbar{
@@ -49,92 +49,6 @@ body{
 
 
 
-
-
-
-/* main section styling */
-/* .signup-container{
-    max-width: 500px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 30px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-
-}
-
-p{
-    font-size: 18px;
-}
-
-
-h2{
-    text-align: center;
-    margin-bottom: 20px;
-    color: #7b4622;
-
-}
-
-.input-field{
-    margin-bottom: 20px;
-
-}
-
-.input-field label{
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-
-}
-
-.input-field input[type="text"],
-.input-field input[type="email"],
-.input-field input[type="password"],
-.input-field input[type="date"]{
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-
-}
-
-.input-field select{
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-
-}
-
-.submit-btn{
-    background-color: #7b4622;
-    color: #fff;
-    border: none;
-    width: 100%;
-    padding: 12px;
-    font-size: 18px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: 0.1s ease-in;
-}
-
-.submit-btn:hover{
-    background-color: #5f341b;
-    
-}
-
-.terms{
-    margin-top: 15px;
-    font-size: 14px;
-    color: #7b4622;
-}
-
-.terms a{
-    color: #7b4622;
-    text-decoration: underline;
-} */
 
 .container {
     max-width: 500px;
